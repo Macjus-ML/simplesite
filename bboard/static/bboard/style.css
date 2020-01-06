@@ -1,0 +1,33 @@
+header h1 {
+    font-size: 40pt;
+    text-transform: uppercase;
+    text-align: center;
+    background: url("bg.jpg") left / auto 100% no-repeat, url("bg.jpg") right / auto 100% no-repeat;
+}
+
+nav {
+    font-size: 16pt;
+    width: 150px;
+    float: left;
+}
+
+nav a {
+    display: block;
+    margin: 10px 0px;
+}
+
+section {
+    margin-left: 170px;
+}
+
+.root {
+    font-size: larger;
+}
+
+img.main-image {
+    width: 300px;
+}
+
+img.additional-image {
+    width: 180px;
+}
