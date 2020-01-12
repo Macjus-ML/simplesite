@@ -1,6 +1,7 @@
 {% extends "layout/basic.html" %}
 
 {% block  title %} {{current_rubric.name}} {% endblock  %}
+{% comment %} <h2><a href="(% url 'detail' pk=bb.pk %}">(( bb.title )}</a></h2> {% endcomment %}
 
 {% block  content %}
 <h2>Рубрика: {{ current_rubric.name }} </h2>
